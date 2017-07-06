@@ -13,6 +13,7 @@
 		37E70F951F0E20030041AD26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E70F931F0E20030041AD26 /* Main.storyboard */; };
 		37E70F971F0E20030041AD26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E70F961F0E20030041AD26 /* Assets.xcassets */; };
 		37E70F9A1F0E20030041AD26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E70F981F0E20030041AD26 /* LaunchScreen.storyboard */; };
+		37E70FA61F0E4A180041AD26 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E70FA51F0E4A180041AD26 /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		37E70F961F0E20030041AD26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37E70F991F0E20030041AD26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37E70F9B1F0E20030041AD26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E70FA41F0E4A180041AD26 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		37E70FA51F0E4A180041AD26 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				37E70F981F0E20030041AD26 /* LaunchScreen.storyboard */,
 				37E70F9B1F0E20030041AD26 /* Info.plist */,
 				37E70F8A1F0E20030041AD26 /* Supporting Files */,
+				37E70FA41F0E4A180041AD26 /* MapViewController.h */,
+				37E70FA51F0E4A180041AD26 /* MapViewController.m */,
 			);
 			path = GitDemo1;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 				37E70F921F0E20030041AD26 /* ViewController.m in Sources */,
 				37E70F8F1F0E20030041AD26 /* AppDelegate.m in Sources */,
 				37E70F8C1F0E20030041AD26 /* main.m in Sources */,
+				37E70FA61F0E4A180041AD26 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
