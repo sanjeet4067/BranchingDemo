@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     NSLog(@"MapViewController");
+    NSLog(@"MapView feature implemented.");
 }
 
 - (void)didReceiveMemoryWarning {
